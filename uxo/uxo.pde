@@ -30,7 +30,10 @@
 // 5. Add a splash screen
 
 // Physical Computer Extension
-// Connect two breadboarded LEDs to GPIO pinsand have them light up when a mine is cleared (green LED) and when a person steps on a landmine (red LED). Instructions for controlling GPIO pins from Processing: https://www.youtube.com/watch?v=mp5GzsSDH0s
+// Connect two breadboarded LEDs to GPIO pinsand have them light up when a mine is cleared (green LED) and when a person steps on a landmine (red LED). 
+// Instructions for controlling GPIO pins from Processing: 
+// - https://www.youtube.com/watch?v=mp5GzsSDH0s
+// - https://hackaday.io/project/7008-fly-wars-a-hackers-solution-to-world-hunger/log/21899-controlling-raspberry-pi-gpio-pins-from-within-processing-environment
 
 int nMines = 500; // Number of land mines placed
 int nPeople = 10; // Number of people on the minefield at any given time
