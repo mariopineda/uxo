@@ -26,7 +26,7 @@ landmine.right(90)
 landmine.setPenColor("red")
 landmine.setPos(0, 0)
 landmine.penUp()
-repeat 500:
+for i in range(250):
     landmine.setPos(randint(-XMAX/2,XMAX/2), randint(-YMAX/2,YMAX/2))
     landmine.penDown()
     landmine.dot(5)
